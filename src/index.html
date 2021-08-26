@@ -5,35 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Octo - Home</title>
+  <link rel="shortcut icon" href="../images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./index.css" />
 </head>
 <body>
-  <main>
-    <header>
-      <h1>TODO</h1>
-      <img src="../images/icon-moon.svg">
-    </header>
-    <section>
-      <form>
-        <input type="radio">Create a new todo...</input>
-      </form>
-      <ul>
-        <li>Complete online JavaScript course</li>
-        <li>Jog around the park 3x</li>
-        <li>10 minutes meditation</li>
-        <li>Pick up groceries</li>
-        <li>Complete Todo App on Frontend Mentor</li>
-      </ul>
-      <div>
-        <i>5 items left</i>
-        <i>All</i>
-        <i>Active</i>
-        <i>Completed</i>
-        <i>Clear Completed</i>
-      </div>
-    </section>
-    <footer>
-      <p>Drag and drop to reorder list</p>
-    </footer>
+  <main class="wrapper">
+    <div class="container">
+      <header>
+        <h1 class="pull-left">TODO</h1>
+        <img class="pull-right" src="../images/icon-sun.svg">
+      </header>
+      <section>
+        <form>
+          <input class="input-field" type="text" value="create a new todo" />
+        </form>
+        <ul>
+          <li><i class="fa fa-circle-o"></i> Complete online JavaScript course</li>
+          <li><i class="fa fa-circle-o"></i> Jog around the park 3x</li>
+          <li><i class="fa fa-circle-o"></i> 10 minutes meditation</li>
+          <li><i class="fa fa-circle-o"></i> Pick up groceries</li>
+          <li><i class="fa fa-circle-o"></i> Complete Todo App on Frontend Mentor</li>
+        </ul>
+        <div>
+          <i>5 items left</i>
+          <i>All</i>
+          <i>Active</i>
+          <i>Completed</i>
+          <i>Clear Completed</i>
+        </div>
+      </section>
+      <footer>
+        <p>Drag and drop to reorder list</p>
+      </footer>
+    </div>
   </main>
+  <script src="https://kit.fontawesome.com/d359271935.js" crossorigin="anonymous"></script>
 </body>
 </html>
